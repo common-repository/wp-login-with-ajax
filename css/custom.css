@@ -1,0 +1,79 @@
+#CLMsg
+{
+	display:none;
+}
+#CSMsg
+{
+	display:none;
+}
+.form_login
+{
+	width:500px;
+    float:left;
+}
+.CError
+{
+	background-color: #ffebe8;
+    border: 1px solid #ff0000;
+    color: #900404;
+    display: none;
+    float: left;
+    line-height: 24px;
+    padding: 7px;
+    width: 50%;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.loader
+{
+	 background-image: url("../images/ajax-loader.gif");
+	 display: block !important;
+	 background-repeat: no-repeat;
+}
+.CSuccess
+{
+    background-color: #bfffa1;
+    border: 1px solid #347c17;
+    color: #347c17;
+    display: none;
+    margin-top: 5px;
+    padding: 6px;
+    width: 50%;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.Cpadding
+{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.CSettings
+{
+	margin:20px;
+}
+.manage_w input[type="text"]
+{
+width:300px; height:35px;border-radius:3px;
+}
+.form_login input[type="text"]
+{
+    border-radius:3px;
+}
+.form_login input[type="password"]
+{
+    border-radius:3px;
+}
+.formAdmin label
+{
+    width:25%;
+}
+.manage_form
+{
+	border: 1px solid #dedede;
+    margin: 10px 0 0;
+    padding: 13px;
+    width: 80%;
+}
+.form_login .errorDisplay {
+    border:2px solid #ff0000;
+}
